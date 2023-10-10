@@ -473,7 +473,6 @@ transition: 1s;
 }
 
 .portfolio{
-  background: rgba(0, 0, 0, 0.22);
   backdrop-filter: blur(10.4px);
   display: flex;
   align-items: center;
@@ -1406,13 +1405,14 @@ li{
 
 
   .portimage{
-    width: 80%;
+    width: 90%;
+    border-radius: 20px;
     overflow:hidden;
   }
 
   .portsummary{
     width: 90%;
-    margin:10px 0;
+    margin:20px 0;
   }
 
 
@@ -1421,7 +1421,6 @@ li{
     margin-bottom:0;
     height:auto;
     border-radius:20px;
-    padding: 10px 0;
   }
 
 
@@ -2074,7 +2073,6 @@ li{
     margin-bottom:0;
     height:auto;
     border-radius:20px;
-    padding: 10px 0;
 
   }
 
@@ -2093,12 +2091,14 @@ li{
   }
 
   .portimage{
-    width: 80%;
+    width: 90%;
+    border-radius: 20px;
     overflow:hidden;
   }
 
   .portsummary{
     width: 90%;
+    margin:20px 0;
   }
 
   .iconlist1{
