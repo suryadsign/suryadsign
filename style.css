@@ -215,6 +215,7 @@ body{
 .menudiv .active{
   font-weight: bold;
   background-color: rgb(0,225,253,20%);
+  color: rgb(0,225,253,100%);
 }
 
 .profilesummary{
@@ -1216,6 +1217,8 @@ li{
   .menudiv .active{
     font-weight: bold;
     background-color: rgb(0,225,253,20%);
+    color: rgb(0,225,253,100%);
+
   }
 
   .logodiv{
