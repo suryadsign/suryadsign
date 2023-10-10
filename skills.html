@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Surya Narayanan</title>
+  <!-- bootstrap -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+  <!-- fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+
+  <!-- css -->
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="images/logo.ico">
+  <link href="https://api.fontshare.com/v2/css?f[]=zodiak@400&f[]=bebas-neue@400&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+
+<body onload="load()">
+
+  <button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/top.gif" style="" ></button>
+
+  <div class="sidebar">
+    <div class="logodiv">
+      <a style="padding:0px" href="index.html"><img class="logo" src="images/logo.png" alt=""></a>
+    </div>
+
+    <a href="portfolio.html">Portfolio<span class="badge">New</span></a>
+    <a href="index.html">Profile</a>
+    <a class="active" href="skills.html">proficiency</a>
+
+  </div>
+
+  <!-- <img src="images/dot.svg" alt="dot" class="dot"> -->
+
+
+  <div class="workspace">
+    <section class="hidden">
+    <div class="overall-numbers">
+      <div class="numbers-list1">
+        <p class="list1"><span id='0101'>4</span> yr</p>
+        <p class="list1-description">Experience</p>
+      </div>
+
+      <div class="numbers-list1">
+        <p class="list1"><span id='0102'>30</span>+</p>
+        <p class="list1-description">Projects</p>
+      </div>
+
+      <div class="numbers-list1">
+        <p class="list1"><span id='0103'>20</span>+</p>
+        <p class="list1-description">Clients</p>
+      </div>
+
+      <div class="numbers-list1">
+        <p class="list1"><span id='0104'>5</span>+</p>
+        <p class="list1-description">Rating</p>
+      </div>
+    </div>
+  </section>
+
+    <!-- table -->
+<section class="hidden">
+
+    <div style="overflow-x: auto;">
+      <table>
+        <thead>
+          <th>Icon</th>
+          <th>Skills/Tools used</th>
+          <th>Percentage</th>
+        </thead>
+        <tbody>
+          <tr>
+            <td><img src="images/uxdesign.png" class="table-icon" alt="" style=""></td>
+            <td>UX Research</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/uidesign.png" class="table-icon" alt="" style=""></td>
+            <td>UI Designs</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/userresearch.png" class="table-icon" alt="" style=""></td>
+            <td>UX Experience Architecture</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/abtest.png" class="table-icon" alt="" style=""></td>
+            <td>A/B Testing</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/userflow.png" class="table-icon" alt="" style=""></td>
+            <td>User Flow</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/figma.png" class="table-icon" alt="" style=""></td>
+            <td>Figma</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/xd.png" class="table-icon" alt="" style=""></td>
+            <td>Adobe XD</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/sketch.png" class="table-icon" alt="" style=""></td>
+            <td>Sketch</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/invision.png" class="table-icon" alt="" style=""></td>
+            <td>Invision</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/photoshop.png" class="table-icon" alt="" style=""></td>
+            <td>Adobe Photoshop</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/illustrator.png" class="table-icon" alt="" style=""></td>
+            <td>Adobe Illustrator</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/sketches.png" class="table-icon" alt="" style=""></td>
+            <td>Sketches</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/wireframes.png" class="table-icon" alt="" style=""></td>
+            <td>Wireframes</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/prototyping.png" class="table-icon" alt="" style=""></td>
+            <td>Prototyping</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/visualdesign.png" class="table-icon" alt="" style=""></td>
+            <td>Visual Design</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/html.png" class="table-icon" alt="" style=""></td>
+            <td>HTML</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/css.png" class="table-icon" alt="" style=""></td>
+            <td>CSS</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/bootstrap.png" class="table-icon" alt="" style=""></td>
+            <td>Bootstrap</td>
+            <td>60%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/responsive.png" class="table-icon" alt="" style=""></td>
+            <td>Responsive design</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/balsamiq.png" class="table-icon" alt="" style=""></td>
+            <td>Balsamiq</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/atom.png" class="table-icon" alt="" style=""></td>
+            <td>Atom</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/webflow.png" class="table-icon" alt="" style=""></td>
+            <td>Web Flow</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/uxtweek.png" class="table-icon" alt="" style=""></td>
+            <td>UX Tweak</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/blender.png" class="table-icon" alt="" style=""></td>
+            <td>Blender</td>
+            <td>50%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/aftereffects.png" class="table-icon" alt="" style=""></td>
+            <td>After Effects</td>
+            <td>50%</td>
+          </tr>
+
+
+          <tr>
+            <td><img src="images/mockuppresentation.png" class="table-icon" alt="" style=""></td>
+            <td>Mockup Presentation</td>
+            <td>100%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/graphicdesign.png" class="table-icon" alt="" style=""></td>
+            <td>Graphic Design</td>
+            <td>80%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/bannerdesign.png" class="table-icon" alt="" style=""></td>
+            <td>Banners</td>
+            <td>90%</td>
+          </tr>
+
+          <tr>
+            <td><img src="images/logodesign.png" class="table-icon" alt="" style=""></td>
+            <td>Logo</td>
+            <td>70%</td>
+          </tr>
+        </tbody>
+      </table>
+
+
+    </section>
+    <section class="hidden">
+      <p class="experience-history">Work Experience</p>
+
+      <div class="experience-list">
+        <p class="experience-date" style="">2021-Pursuing</p>
+        <p class="experience" style="font-size:24px">eMudhra Technology Limited</p>
+        <p class="experience-designation">Senior UI/UX Designer</p>
+        <p class="experiences-description">Provide art direction
+          to other designers. Work with development team to execute design into code. Work in tandem
+          with technical experts to build the business logic, workflows and processes that feed and
+          consume information provided by the interface. Work collaboratively inside a cross functional
+          team, integrating your design expertise inside an agile environment which resulted 20% increase
+          of the development success strategy. </p>
+          </div>
+
+          <div class="experience-list">
+          <p class="experience-date" style="">2020-2021</p>
+          <p class="experience" style="font-size:24px">CIOC FMCG Private Limited</p>
+          <p class="experience-designation">UI/UX Designer</p>
+          <p class="experiences-description">Developing user friendly interfaces
+            and interaction flows of 10+ software applications for web and mobile apps by collaborating with
+            cross functional team to ensure consistency in design flows and prototype. Take part in QA and
+            Present feedbacks to developers. Execute various visual design stages from concept to final
+            hand-off development </p>
+            </div>
+
+            <div class="experience-list">
+            <p class="experience-date" style="">2019</p>
+            <p class="experience" style="font-size:24px">Haso Technology Private limited</p>
+            <p class="experience-designation">UX Designer</p>
+            <p class="experiences-description">Practiced UX design
+              under a senior UX Designer, designing series of daily UI design tasks. Get in touch with stake
+              holders to understand what is the basic requirements and how to develop a product. Engage working
+              on Brochures, Logos, illustrations and vector graphics.</p>
+            </div>
+
+
+            <p class="experience-history">Education</p>
+
+            <div class="experience-list">
+              <p class="experience-date" style="">2015-2019</p>
+              <p class="experience" style="font-size:24px">Bachelor's Degree</p>
+              <p class="experiences-description">B.E Electronics & Communication<br>K L N College Of Engineering, India</p>
+            </div>
+    </section>
+
+
+            <p class="copyright">All works © Surya Narayanan 2022</p>
+          </div>
+        </div>
+        <script defer type="text/javascript" src="script.js"> </script>
+
+      </body>
+      </html>
