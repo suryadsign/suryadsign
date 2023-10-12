@@ -1139,8 +1139,8 @@ li{
 }
 
 .qualitateimage{
-  width:100%;
-  height: auto;
+  width:auto;
+  height: 180px;
 }
 
 .qualitatetext{
@@ -1465,7 +1465,7 @@ li{
   }
 
   .UX-banner{
-    width:80%;
+    width:100%;
     height:auto;
     margin:0 auto;
   }
@@ -1592,9 +1592,8 @@ li{
   }
 
   .containerportd{
-    margin: 20px auto 20px auto;
-    width: 80%;
-    padding:20px 0px;
+    margin: 10px auto 10px auto;
+    width: 90%;
     text-align: left;
   }
 
@@ -1616,7 +1615,7 @@ li{
   }
 
   .subimaged{
-    width:80%;
+    width:100%;
     margin-top: 20px;
     height:auto;
   }
@@ -1637,10 +1636,6 @@ li{
     font-size: 24px;
   }
 
-  .duration3d{
-    margin:0px;
-    margin-top:10px;
-  }
 
   .containerd{
     width:100%;
@@ -1678,6 +1673,27 @@ li{
 
   .role2list{
     margin-left:0px;
+  }
+
+  .duration{
+    display: grid;
+  }
+
+  .duration1d{
+    margin:10px 0;
+  }
+
+  .duration2d{
+    margin:10px 0;
+  }
+
+  .duration3d{
+    margin:10px 0;
+  }
+
+  .qualitateimage{
+    width:auto;
+    height: 120px;
   }
 
   .qualicontaind1{
@@ -2287,11 +2303,11 @@ margin-bottom:5px 0;
 
   .subhead1d{
     color:white;
-    font-size: 12px;
+    font-size: 16px;
   }
 
   .subimaged{
-    width:50%;
+    width:100%;
     margin-top: 20px;
     height:auto;
   }
@@ -2343,6 +2359,11 @@ margin-bottom:5px 0;
   .role2{
     display:inline-block;
     margin-left:0px;
+  }
+
+  .qualitateimage{
+    width:auto;
+    height: 150px;
   }
 
   .quantitateimage1{
