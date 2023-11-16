@@ -326,6 +326,7 @@ padding:0px 20px;
 color: rgb(255,255,255,1);
 margin:0;
 line-height: 2;
+width: 55%;
 }
 
 .downloadresume{
@@ -492,6 +493,13 @@ transition: 1s;
   box-shadow: 0px 0px 1px black;
 }
 
+
+.photo{
+  width: 50%;
+  height: auto;
+  position: absolute;
+  right:0;bottom: 0;
+}
 .portimage{
   display: inline-block;
   width: 40%;
@@ -1284,6 +1292,9 @@ li{
     100% {top:0px;}
   }
 
+  .photo{
+  display: none;
+  }
 
   .logodiv{
     position: inline;
@@ -1349,6 +1360,7 @@ li{
   color: rgb(255,255,255,1);
   margin:10px 0;
   line-height: 2;
+  width: 100%;
   }
 
   .downloadresume a{
@@ -1986,6 +1998,11 @@ li{
   display: contents;
 }
 
+.photo{
+display: none;
+}
+
+
   .Group{
     display:block;
     margin: 10px auto;
@@ -2028,6 +2045,7 @@ li{
   color: rgb(255,255,255,1);
   margin:10px 0;
   line-height: 2;
+  width: 100%;
   }
 
   .downloadresume a{
