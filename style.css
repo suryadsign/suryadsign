@@ -526,7 +526,7 @@ transition: 1s;
 }
 
 .portfolio-text{
-  font-size: 24px;
+  font-size: 18px;
   color:white;
   margin:0px 20px;
   text-align: left;
@@ -537,7 +537,7 @@ transition: 1s;
 }
 
 .portfolio-subtext{
-  font-size: 16px;
+  font-size: 13px;
   margin:5px 20px;
   line-height: 20px;
   text-align: left;
