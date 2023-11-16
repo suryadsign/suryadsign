@@ -502,6 +502,8 @@ transition: 1s;
   display: inline-block;
   width: 50%;
   text-align: left;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -530,6 +532,8 @@ transition: 1s;
   text-align: left;
   font-weight: bold;
   display: table;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 .portfolio-subtext{
@@ -539,6 +543,8 @@ transition: 1s;
   text-align: left;
   color: white;
   font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+
 }
 
 
@@ -1416,6 +1422,8 @@ li{
   .portsummary{
     width: 90%;
     margin:20px 0;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
 
@@ -2118,6 +2126,8 @@ li{
   .portsummary{
     width: 90%;
     margin:20px 0;
+    font-family: 'Montserrat', sans-serif;
+
   }
 
   .iconlist1{
